@@ -2,6 +2,8 @@
 
 ```sh
 cd game
+source env/bin/activate
+pip3 install -r requirements.text 
 python3 main.py
 ```
 
@@ -26,4 +28,12 @@ deactivate
 source env/bin/activate
 pip3 install matplotlib
 pip3 freeze
+```
+
+# file requirements.txt
+-- Nos permite tener un listado de todas las dependencias del projecto
+```sh
+cd game
+pip3 freeze > requirements.text
+pip3 install -r requirements.text 
 ```
