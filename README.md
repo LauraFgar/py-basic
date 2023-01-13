@@ -2,6 +2,7 @@
 
 ```sh
 cd game
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.text 
 python3 main.py
@@ -31,7 +32,7 @@ pip3 freeze
 ```
 
 # file requirements.txt
--- Nos permite tener un listado de todas las dependencias del projecto
+-- Nos permite tener un listado de todas las dependencias del proyecto
 ```sh
 cd game
 pip3 freeze > requirements.text
